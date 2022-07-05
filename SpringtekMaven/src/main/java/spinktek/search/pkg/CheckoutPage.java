@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 public class CheckoutPage {
 
 	public static void checkout(WebDriver driver) {
-		
+
 		SearchRepository.fname(driver).sendKeys("ABCDE");
 		SearchRepository.lastName(driver).sendKeys("XYZ");
 		SearchRepository.mobileNo(driver).sendKeys("45698712323");
@@ -18,7 +18,7 @@ public class CheckoutPage {
 		SearchRepository.state(driver).sendKeys("ABCDE");
 		SearchRepository.ckboxagree(driver).click();
 
-
+// this is for checkout page
 	}
 
 }
